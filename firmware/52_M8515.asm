@@ -27,6 +27,7 @@
 ; PB6 = A14 if /2732 = 1, /E2 if 0
 ; PB7 = A15 if /2732 = 1, /E3 if 0
 
+; PC0..3  = OUT0..3  digital sample output
 ; PC7..4  = A7..4
 ; PD2..0  = A2..0
 ; PE1 = A3
