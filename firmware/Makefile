@@ -11,6 +11,7 @@ flash:
 
 fuse:
 	avrdude -c $(TARGET) -p $(MCU) -U lfuse:w:0xE0:m
+	avrdude -c $(TARGET) -p $(MCU) -U hfuse:w:0xD9:m
 
 clean:
 	rm -f $(SRCFILE).hex $(SRCFILE).obj $(SRCFILE).cof
